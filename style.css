@@ -25,7 +25,6 @@ textarea {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f7f1e5;
-  min-height: 100vh;
   user-select: none;
 }
 

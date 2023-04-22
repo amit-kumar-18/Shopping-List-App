@@ -79,10 +79,6 @@ button:active {
   transform: scale(0.98);
 }
 
-button:hover {
-  background-color: hsl(37, 100%, 60%);
-}
-
 /* Dynamic Data styling */
 .container__list {
   gap: 0.5rem;
@@ -112,6 +108,14 @@ button:hover {
   transition: background 150ms ease-in-out;
 }
 
-.container__list li:hover {
-  background-color: #dce1eb;
+/* Media queries for larger screens */
+
+@media (min-width: 786px) {
+  button:hover {
+    background-color: hsl(37, 100%, 60%);
+  }
+
+  .container__list li:hover {
+    background-color: #dce1eb;
+  }
 }

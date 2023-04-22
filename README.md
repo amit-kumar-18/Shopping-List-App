@@ -1,6 +1,6 @@
 # Shopping List App
 
-![Design preview for the Shopping List App](public/assets/design/desktop%20design.png)
+![Design preview for the Shopping List App](public/design/desktop%20design.png)
 
 ## Welcome! 👋
 
